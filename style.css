@@ -1,0 +1,76 @@
+body{
+    margin-right: 0px;
+}
+.menu {
+    list-style: none;
+    font-family: sans-serif;
+    position: fixed;
+    top: 0px;
+    margin-top:0px;
+    width: 100%;
+    z-index: 10;
+    cursor: pointer;
+    background-color: black;
+}
+
+.link {
+    color: beige;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    display: inline;
+}
+
+.link:hover{
+    background-color: blue;
+}
+
+#spanlogo1{
+    margin-right: 45px;
+}
+
+#spanlogo2{
+    margin-left:  45px;
+}
+
+.line{
+    width: 1920px;
+    height: 3px;
+    background-color: black;
+    margin: 8px auto;
+}
+
+#GridView img{
+    width: 350px;
+    height: 500;
+    margin-right: 30px;
+    margin-top: 30px;
+    transition: transform 2s;
+}
+
+#GridView img:hover{
+    transform: scale(1.1);
+}
+
+h3{
+    color: black;
+    font-size: 30px;
+}
+
+#MyCarousel{
+    background-color:dodgerblue;
+    color: white;
+    font-size: 25px;
+}
+
+#MyCarousel img {
+    margin-top: 15px;
+    transition: transform 2s;
+    width: 350px;
+    height: 500;
+}
+
+#MyCarousel img:hover{
+    transform: scale(1.1);
+}
